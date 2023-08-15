@@ -7,17 +7,17 @@ int main()
 
     scanf("%lf %lf", &x, &y);
 
-    if (x == y == 0)
+    if (x == 0 && y == 0)
     {
         printf("Origem\n");
     }
     else if (x == 0)
     {
-        printf("Eixo X\n");
+        printf("Eixo Y\n");
     }
     else if (y == 0)
     {
-        printf("Eixo Y\n");
+        printf("Eixo X\n");
     }
     else if (x > 0 && y > 0)
     {
@@ -35,6 +35,7 @@ int main()
     {
         printf("Q4\n");
     }
+
 
     return 0;
 }
