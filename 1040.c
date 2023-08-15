@@ -12,7 +12,7 @@ int main()
 
     if (media >= 7.0)
     {
-        printf("Aluno aprovado.");
+        printf("Aluno aprovado.\n");
     }
     else if (media < 5.0)
     {
@@ -28,12 +28,12 @@ int main()
         if (media >= 5.0)
         {
             printf("Aluno aprovado.\n");
-            printf("Meida final: %.1lf\n", media);
+            printf("Media final: %.1lf\n", media);
         }
         else
         {
             printf("Aluno reprovado.\n");
-            printf("Meida final: %.1lf\n", media);
+            printf("Media final: %.1lf\n", media);
         }
     }
 
